@@ -1,0 +1,125 @@
+* {
+    padding : 0 ;
+    margin : 0 ;
+    text-decoration: none; 
+    list-style: none;
+    box-sizing: border-box;
+}
+.torki {
+    background-color : rgb(4, 0, 255) ;
+    margin : 5px ;
+    color :rgb(255, 255, 255) ;
+    text-align: end;
+    border-radius: 8px;
+    display : flex ;
+    justify-content: space-between;
+}
+#clean {
+    margin-left : 1rem ;
+    border-radius: 50% ;
+    width : 20px ;
+    cursor : pointer ;
+}
+#goback {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#clean:hover,
+#goback:hover{
+    background :rgb(30, 255, 150) ;
+    color : orangered ;
+}
+.took {
+    margin-top: 2rem;
+    display: flex; 
+    flex-direction: row;
+}
+
+.storage {
+    width  : 30% ;
+    height : 92vh ;
+
+}
+.tink {
+    width : 70% ;
+    height : 92vh ;
+}
+
+
+.ulu {
+    margin-top  : 2rem ;
+    display : flex ;
+    flex-direction:column;
+}
+.btn {
+    border : 1px solid gray ;
+    border-bottom: none;
+    text-align: center;
+    display : flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top-right-radius: 5px;
+    background-color : rgb(30, 255, 150) ;
+}
+.li {
+    border-top: none;
+    border-radius: 5px;
+    outline: none;
+    max-width: 65%;
+    min-width : 248px ;
+}
+.btn h2{
+margin-right : 0.5rem ;
+}
+.add-clear button {
+width : 20px ;
+height  : 25px ;
+font-size: 1.5rem;
+background-color: rgb(190, 245, 255);
+border-radius: 5px;
+color : #333 ;
+border : none ;
+text-align: center;
+cursor : pointer ; 
+}
+
+.add-clear {
+    margin-left: 0.5rem;
+    
+}
+.tong {
+    width : 100% ;
+    height : 50px;
+    display : flex ;
+    background :rgb(255, 255, 255) ;
+    justify-content: flex-end;
+    align-items: center ; }
+
+#noth  {
+    display : block ;
+    width : 3rem ;
+    height : 3rem ;
+    border-radius: 50%;
+    font-size : 2rem ;
+    background-color : #ffffff ;
+    color : rgb(0, 17, 255);
+    border : solid 1px #002fff ;
+    cursor: pointer;
+}
+#noth:hover {
+    background :rgb(0, 17, 255) ;
+    color : #fff ;
+}
+
+
+.noth-label {
+    width : 6rem ;
+    height : 2rem ;
+    color : rgb(4, 0, 255) ;
+    text-align: center ;
+    background-color :rgb(30, 255, 150) ;
+    padding-top : 3px ;
+    border-radius : 10px ;
+    margin-left : 0.5rem ;
+} 
